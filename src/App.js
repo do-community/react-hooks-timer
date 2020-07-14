@@ -21,7 +21,6 @@ function App() {
 
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
   const [year] = useState(new Date().getFullYear());
-  // const [timerComponents, setTimerComponents] = useState([]);
 
   useEffect(() => {
     setTimeout(() => {
